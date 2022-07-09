@@ -18,7 +18,9 @@ while(counter < user_ages.length){
 counter = 0;
 // for loop will check for user name under 18
 for (counter = 0; counter < user_ages.length; counter++){
+    // if statement will check the user age for under 18 users
     if(user_ages[counter] <= 18){
+        //this console.log will display user under 18 and their actual age
         console.log(user_ages[counter],user_names[counter]);
     }
 }
